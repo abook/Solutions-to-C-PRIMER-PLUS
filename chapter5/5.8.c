@@ -8,7 +8,7 @@ int main(void)
 
     printf("Enter the temperature in Fahrenheit: ");
 
-    status = scanf("%lf", &F);
+    status = scanf("%lf", &F); // 貌似本章还没有讲此用法
 
     while (status == 1)
     {
